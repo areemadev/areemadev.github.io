@@ -15,7 +15,13 @@ import { Cookies } from 'react-cookie';
 const cookies = new Cookies();
 // 깨진 한글
 const value = "ëë©ì¸"; 
-const decodedValue = decodeURIComponent(escape(value));
-cookies.set(key, decodedValue);
+try {
+	const decodedValue = decodeURIComponent(escape(value));
+	cookies.set(key, decodedValue);
+} catch(e) {
+	// decoding 에 실패했을 경우에 대한 처리
+	cookies.set(key, value);
+}
+
 ```
 
