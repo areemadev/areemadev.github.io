@@ -1,9 +1,5 @@
 ---
 title: "[ReactNative] Called object type 'facebook::flipper... 에러"
-tags:
-  - react-native
-  - flipper
-layout: post
 ---
 
 ### 문제
