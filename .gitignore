@@ -1,0 +1,31 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ruby-specific files
+*.gem
+*.rbc
+.bundle
+config.yml
+vendor/
+Gemfile.lock
+
+# Jekyll output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler and Gems
+.bundle
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
+
+# Temporary files
+*.swp
+*.tmp
+*.log
+*.pid
+*.gz
