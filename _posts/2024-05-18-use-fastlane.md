@@ -1,9 +1,11 @@
 ---
 title: "[ReactNative] iOS Fastlane 으로 TestFlight 에 업로드 하기"
+categories: dev
 tags:
   - react-native
   - fastlane
-layout: post
+toc: true
+toc_sticky: true
 ---
 
 ### fastlane 설치
@@ -120,4 +122,3 @@ fastlane beta
 ### 참고
 
 <a href="https://docs.fastlane.tools/getting-started/ios/setup/#" target="_blank">https://docs.fastlane.tools/getting-started/ios/setup/#</a>
-

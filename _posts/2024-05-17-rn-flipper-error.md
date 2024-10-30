@@ -1,5 +1,9 @@
 ---
 title: "[ReactNative] Called object type 'facebook::flipper... 에러"
+categories: dev
+tags: react-native
+toc: true
+toc_sticky: true
 ---
 
 ### 문제
